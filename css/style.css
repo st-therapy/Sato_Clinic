@@ -2,18 +2,19 @@
 :root{--blue:#1267ad;--deep:#083861;--pale:#e9f2ff;--pale2:#f3f7ff;--line:#68a8e5;--text:#14191f;}
 *,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-width:1200px;font-family:'Noto Sans JP',sans-serif;font-size:16px;line-height:1.72;color:var(--text);background:#fff}a{color:inherit;text-decoration:none}a:hover{opacity:.78}img{display:block;max-width:100%}h1,h2,h3,h4,p{margin-top:0}p{margin-bottom:16px}.container{width:1110px;max-width:calc(100% - 60px);margin-inline:auto}.narrow-page{width:910px;margin-inline:auto}.skip-link{position:absolute;top:-70px;left:12px;background:white;padding:12px;z-index:90}.skip-link:focus{top:5px}
 .site-header{background:#fff}.header-main{height:166px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #70aaf2}.site-logo img{width:247px;height:auto}.header-contact{text-align:right;line-height:1.3}.header-contact p{font-size:13px;margin:0 0 5px}.header-contact .header-phone{font-size:24px;font-weight:600;letter-spacing:1px;display:block}.header-contact .header-phone span{font-size:28px}.primary-nav{display:flex;align-items:center;justify-content:space-between;height:83px;gap:40px}.nav-links{display:flex;align-items:center;justify-content:space-between;flex:1;max-width:930px}.nav-links a{display:block;white-space:nowrap;font-size:16px;font-weight:600;border-bottom:1px solid #629ad1;padding:0 10px 5px}.button{display:inline-flex;align-items:center;justify-content:center;background:var(--blue);border:1px solid #063b65;color:#fff;border-radius:10px;font-weight:700;text-align:center;min-height:50px;padding:10px 27px;line-height:1.5;white-space:nowrap;transition:background .15s,opacity .15s}.button:hover{background:#074f8d;opacity:1}.button-nav{border-radius:10px;min-width:120px;font-size:14px;min-height:50px;padding:8px 14px}.wide-button{width:240px}.button-small{min-height:38px;font-size:14px;border-radius:6px;padding:5px 20px}
-.site-footer{margin-top:60px;background:var(--pale);min-height:70px}.footer-inner{display:flex;justify-content:space-between;align-items:center;min-height:70px;gap:25px}.footer-logo img{width:155px}.site-footer nav{display:flex;align-items:center;justify-content:space-between;gap:19px}.site-footer nav a{font-size:12px;border-bottom:1px solid #8eb7df;white-space:nowrap}.site-footer small{white-space:nowrap;font-size:10px}.section-heading{font-family:'Noto Serif JP',serif;font-size:30px;font-weight:700;line-height:1.5;color:var(--deep);margin-bottom:36px}.section-heading.center{text-align:center}.section-space{padding-top:90px;padding-bottom:70px}.center-action{text-align:center;margin-top:34px}
+.site-footer{margin-top:60px;background:var(--pale);min-height:70px}.footer-inner{display:flex;justify-content:space-between;align-items:center;min-height:70px;gap:25px}.footer-logo img{width:155px}.site-footer nav{display:flex;align-items:center;justify-content:space-between;gap:19px}.site-footer nav a{font-size:12px;border-bottom:1px solid #8eb7df;white-space:nowrap}.site-footer small{white-space:nowrap;font-size:10px}
+.site-footer .site-disclaimer{margin:0 auto;padding:12px 0 20px;font-size:10px;font-weight:400;line-height:1.8;text-align:center}.section-heading{font-family:'Noto Serif JP',serif;font-size:30px;font-weight:700;line-height:1.5;color:var(--deep);margin-bottom:36px}.section-heading.center{text-align:center}.section-space{padding-top:90px;padding-bottom:70px}.center-action{text-align:center;margin-top:34px}
 .hero{height:585px;position:relative;overflow:hidden}.hero-image{position:absolute;inset:0;background:url('../img/hero.jpg') center center/cover no-repeat}.hero-overlay{position:relative;height:100%;display:flex;align-items:center}.hero-copy{margin-left:45px;margin-top:-7px;max-width:670px}.hero-kicker{font-size:20px;margin-bottom:12px}.hero h1{font-family:'Noto Serif JP',serif;color:#0664ad;font-size:36px;letter-spacing:2px;line-height:1.5;margin-bottom:5px}.hero-subtitle{font-family:'Noto Serif JP',serif;font-weight:700;font-size:18px}.hero-specialties{margin-top:52px;line-height:1.95;font-size:16px;margin-bottom:34px}.hero .button{min-width:180px}
 .hours-home-wrap{width:704px;margin:auto}.home-hours{padding-top:66px;padding-bottom:26px}.hours-table{width:100%;font-size:15px}.hours-table table{width:100%;border-collapse:collapse;text-align:center}.hours-table th,.hours-table td{padding:8px 12px;border-bottom:1px solid #c6ddff;white-space:nowrap;line-height:1.8}.hours-table thead{background:var(--pale)}.hours-table tbody{background:#f5f8ff}.hours-table thead th{font-weight:400}.hours-table th:first-child{text-align:left;padding-left:26px;min-width:230px;font-weight:400}.hours-table .open-mark,.open-mark{color:var(--blue)}.hours-table td .open-mark{font-size:22px;line-height:1}.hours-table .off{color:#4c4c4c}.hours-info{display:flex;justify-content:space-between;gap:10px;padding-top:23px}.hours-table>p{font-size:14px;line-height:1.45;margin:0}
 .home-news{padding-top:72px;padding-bottom:50px}.home-news-layout{display:grid;grid-template-columns:405px 1fr;gap:60px;align-items:start}.home-news .news-visual img{width:645px;height:418px;object-fit:cover}.news-list{padding:0;list-style:none;margin:10px 0 0;border-top:1px solid var(--line)}.news-list li{border-bottom:1px solid var(--line);display:flex;align-items:center;gap:35px;padding:18px 0;min-height:65px}.news-list a{font-size:15px}.news-cat{font-size:14px;white-space:nowrap;min-width:104px}.home-news .center-action{margin-top:46px}
-.home-greeting{padding-top:80px;padding-bottom:90px}.home-greeting .section-heading{margin-bottom:30px}.greeting-layout{display:grid;grid-template-columns:286px 1fr;gap:50px;align-items:start}.greeting-photo{width:286px;height:303px;object-fit:cover;object-position:90% center;border:1px solid var(--blue)}.greeting-copy{font-size:15px;font-weight:500;line-height:1.85}.greeting-copy p{margin-bottom:0}.signature{text-align:right;font-size:19px;font-weight:400;margin-top:15px!important}.home-services{padding-top:82px}.service-teasers{display:grid;grid-template-columns:repeat(5,1fr);gap:46px}.service-teasers a{border:1px solid #217ad0;border-radius:5px;background:var(--pale);height:170px;padding:28px 16px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}.service-teasers strong{font-size:20px;font-weight:500;line-height:1.35}.service-teasers span{font-size:14px;margin-top:20px;line-height:1.65}.home-about{padding-top:75px;padding-bottom:130px}.about-home-layout{display:grid;grid-template-columns:685px 270px;justify-content:space-between;gap:30px}.about-home-layout p{line-height:1.85}.about-home-layout img{width:270px;height:300px;object-fit:cover;border:1px solid var(--blue)}.home-about .center-action{margin-top:-28px}
+.home-greeting{padding-top:80px;padding-bottom:90px}.home-greeting .section-heading{margin-bottom:30px}.greeting-layout{display:grid;grid-template-columns:286px 1fr;gap:50px;align-items:start}.greeting-photo{width:286px;height:303px;object-fit:cover;object-position:90% center;border:1px solid var(--blue)}.greeting-copy{font-size:15px;font-weight:500;line-height:1.85}.greeting-copy p{margin-bottom:0}.signature{text-align:right;font-size:19px;font-weight:400;margin-top:15px!important}.home-services{padding-top:82px}.service-teasers{display:grid;grid-template-columns:repeat(5,1fr);gap:46px}.service-teasers a{border:1px solid #217ad0;border-radius:5px;background:var(--pale);height:170px;padding:28px 16px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}.service-teasers strong{font-size:20px;font-weight:500;line-height:1.35}.service-teasers a>span{font-size:14px;margin-top:20px;line-height:1.65}.home-about{padding-top:75px;padding-bottom:130px}.about-home-layout{display:grid;grid-template-columns:685px 270px;justify-content:space-between;gap:30px}.about-home-layout p{line-height:1.85}.about-home-layout img{width:270px;height:300px;object-fit:cover;border:1px solid var(--blue)}.home-about .center-action{margin-top:-28px}
 .home-staff{background:var(--pale);padding-top:100px;padding-bottom:90px}.staff-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:35px}.staff-card img{width:100%;height:190px;object-fit:cover;border:1px solid var(--blue);border-radius:8px}.staff-card img[src="./img/Doctor_Image/yamamoto_hana.jpg"]{object-position:20% center}.staff-role{font-size:18px;margin:28px 0 0}.staff-card h3{font-size:25px;font-weight:500;margin:0 0 16px;letter-spacing:1px}.staff-card p{font-size:15px;line-height:1.75}.home-staff .center-action{margin-top:38px}.home-access{padding:104px 0 65px}.access-home-layout{display:grid;grid-template-columns:270px 1fr;gap:35px}.access-home-layout p{line-height:1.85;margin:0 0 22px}.access-name{font-size:24px}.map-frame{position:relative;display:block;overflow:hidden;border:1px solid var(--blue)}.map-frame img{height:100%;width:100%;object-fit:cover}.access-home-layout .map-frame{height:390px}.map-frame span{position:absolute;top:56%;left:67%;background:white;border:1px solid var(--deep);font-size:19px;font-weight:700;padding:3px 13px;white-space:nowrap}
 .home-cta{margin-top:30px}.contact-box{width:910px;max-width:100%;margin:0 auto;background:var(--pale);border:1px solid #164e7a;border-radius:10px;min-height:200px;padding:26px 35px 28px;text-align:center}.contact-box h2{font-family:'Noto Serif JP',serif;font-weight:400;font-size:30px;line-height:1.5;margin-bottom:10px;letter-spacing:2px}.contact-box .cta-note{text-align:left;max-width:660px;margin:0 auto 15px;font-size:17px;line-height:1.7}.contact-tel{display:inline-flex;background:var(--deep);color:#fff;font-size:30px;font-weight:700;letter-spacing:1px;line-height:1.5;padding:6px 26px;border-radius:9px}.contact-box>p:last-child{margin:11px 0 0;line-height:1.6;font-size:18px}.home-cta .contact-box{min-height:400px;padding-top:45px;padding-bottom:50px}
 .page-band{background:var(--pale);min-height:158px}.band-inner{display:flex;align-items:center;gap:90px;min-height:158px}.page-band h1{font-family:'Noto Serif JP',serif;font-size:37px;letter-spacing:6px;font-weight:500;white-space:nowrap;margin:0}.page-band p{font-size:16px;line-height:1.6;margin:0}.jump-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px 30px}.jump-grid a{background:var(--pale);border:1px solid var(--blue);border-radius:9px;min-height:66px;padding:10px 30px;display:flex;align-items:center;font-size:22px;font-weight:400}.jump-grid a:hover{background:#d4e6fc}.page-cta{margin-top:75px;margin-bottom:70px}
 .service-intro{padding:60px 0 65px}.service-intro>p{max-width:910px;margin:0 auto 63px;font-size:19px;line-height:1.9;letter-spacing:1px}.service-content{padding-top:20px}.treatment-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:30px 50px}.treatment-card{border:1px solid var(--blue);border-radius:10px;padding:30px;scroll-margin-top:30px}.treatment-card h2{background:var(--pale);border-radius:10px;font-size:22px;font-weight:400;line-height:1.45;margin:0 0 18px;padding:5px 20px}.treatment-photo{position:relative;border:1px solid var(--blue);height:224px;overflow:hidden}.treatment-photo img{position:absolute;width:100%;height:100%;object-fit:cover}.treatment-photo p{position:absolute;left:0;right:0;bottom:0;margin:0;background:#ffffffb8;padding:9px 19px;font-size:18px;line-height:1.68}.back-top{text-align:right;font-size:14px;margin:25px 0}.back-top a:hover{text-decoration:underline}
-.about-index{padding:78px 0 100px}.about-introduction{background:var(--pale);padding:78px 0 100px}.intro-cols{display:grid;grid-template-columns:540px 1fr;gap:70px;align-items:start}.intro-cols .photo-frame{width:540px;height:320px;overflow:hidden;border:1px solid var(--blue)}.intro-cols .photo-frame img{width:100%;height:100%;object-fit:cover;transform:scale(1.3);transform-origin:center bottom;object-position:30% center}.intro-cols p{font-size:20px;letter-spacing:1px;line-height:1.9}.about-greeting{padding-top:120px}.greeting-landscape{width:540px;height:300px;object-fit:cover;border:1px solid var(--blue);margin:0 auto 40px}.long-text{font-size:19px;line-height:1.85;letter-spacing:.6px}.long-text p{margin-bottom:12px}.about-policy{background:linear-gradient(#ffffffe0,#ffffffe0),url('../img/Hospital_Exterior/hospital_4.jpg') center/cover fixed;padding-top:80px;padding-bottom:85px}.policy-section{margin-bottom:30px}.policy-section h3{font-family:'Noto Serif JP',serif;color:var(--deep);font-size:24px;letter-spacing:1px;margin-bottom:8px}.policy-section p{font-size:17px;line-height:1.8}.subpolicy-cols{display:grid;grid-template-columns:1fr 1fr;gap:50px}.subpolicy-cols h4{font-weight:600;margin-bottom:3px}.principle-section>p,.about-staff>p{font-size:18px;line-height:1.85}.principles-table{width:100%;border-collapse:collapse;margin-top:25px;font-size:17px}.principles-table th,.principles-table td{border-top:1px solid #ccdce7;padding:14px 20px;text-align:left}.principles-table th{width:40%;font-weight:500}.principles-table tr:last-child>*{border-bottom:1px solid #ccdce7}.staff-profiles{display:grid;grid-template-columns:1fr 1fr;gap:55px 65px;margin-top:40px}.staff-profile img{width:100%;height:275px;object-fit:cover;border:1px solid var(--blue)}.staff-profile img[src="./img/Doctor_Image/takahashi_yumi.jpg"]{object-position:90% center}.staff-profile img[src="./img/Doctor_Image/yamamoto_hana.jpg"]{object-position:center top}.staff-profile h3{font-size:23px;margin:0 0 8px}.staff-profile .staff-role{margin:17px 0 0}.staff-profile p{font-size:16px}.staff-profile details summary{cursor:pointer;display:inline-block;border-bottom:1px solid var(--blue);color:#06446f;font-size:15px}.staff-profile details p{padding:12px;background:var(--pale);margin:10px 0}.staff-profile .director-comment-sentence{display:inline-block;white-space:nowrap;letter-spacing:-1px}
+.about-index{padding:78px 0 100px}.about-introduction{background:var(--pale);padding:78px 0 100px}.intro-cols{display:grid;grid-template-columns:540px 1fr;gap:70px;align-items:start}.intro-cols .photo-frame{width:540px;height:320px;overflow:hidden;border:1px solid var(--blue)}.intro-cols .photo-frame img{width:100%;height:100%;object-fit:cover;transform:scale(1.3);transform-origin:center bottom;object-position:30% center}.intro-cols p{font-size:20px;letter-spacing:1px;line-height:1.9}.about-greeting{padding-top:120px}.greeting-landscape{width:540px;height:300px;object-fit:cover;border:1px solid var(--blue);margin:0 auto 40px}.long-text{font-size:19px;line-height:1.85;letter-spacing:.6px}.long-text p{margin-bottom:12px}.about-greeting .greeting-mission{text-align:left;letter-spacing:0}.greeting-mission-line{display:block}.greeting-mission-line:not(:last-child){text-align:justify;text-align-last:justify}.about-policy{background:linear-gradient(#ffffffe0,#ffffffe0),url('../img/Hospital_Exterior/hospital_4.jpg') center/cover fixed;padding-top:80px;padding-bottom:85px}.policy-section{margin-bottom:30px}.policy-section h3{font-family:'Noto Serif JP',serif;color:var(--deep);font-size:24px;letter-spacing:1px;margin-bottom:8px}.policy-section p{font-size:17px;line-height:1.8}.subpolicy-cols{display:grid;grid-template-columns:1fr 1fr;gap:50px}.subpolicy-cols h4{font-size:18px;font-weight:600;margin-bottom:3px}.principle-section>p,.about-staff>p{font-size:18px;line-height:1.85}.principles-table{width:100%;border-collapse:collapse;margin-top:25px;font-size:17px}.principles-table th,.principles-table td{border-top:1px solid #ccdce7;padding:14px 20px;text-align:left}.principles-table th{width:40%;font-weight:500}.principles-table tr:last-child>*{border-bottom:1px solid #ccdce7}.staff-profiles{display:grid;grid-template-columns:1fr 1fr;gap:55px 65px;margin-top:40px}.staff-profile img{width:100%;height:275px;object-fit:cover;border:1px solid var(--blue)}.staff-profile .director-photo-frame{width:100%;height:275px;overflow:hidden;border:1px solid var(--blue)}.staff-profile .director-photo-frame img{width:100%;height:100%;object-fit:cover;object-position:right center;transform:translateY(30px) scale(1.2);transform-origin:right bottom;border:0}.staff-profile img[src="./img/Doctor_Image/takahashi_yumi.jpg"]{object-position:90% center}.staff-profile .yamamoto-photo-frame{width:100%;height:275px;overflow:hidden;border:1px solid var(--blue)}.staff-profile .yamamoto-photo-frame img{width:100%;height:100%;object-fit:cover;object-position:left top;transform:scale(1.15);transform-origin:left top;border:0}.staff-profile h3{font-size:23px;margin:0 0 8px}.staff-profile .staff-role{margin:17px 0 0}.staff-profile p{font-size:16px}.staff-profile details summary{cursor:pointer;display:inline-block;border-bottom:1px solid var(--blue);color:#06446f;font-size:15px}.staff-profile details p{padding:12px;background:var(--pale);margin:10px 0}.staff-profile .director-comment-sentence{display:inline-block;white-space:nowrap;letter-spacing:-1px}
 .news-page{padding-top:92px}.news-page>.news-list li{min-height:72px;gap:100px}.news-page .news-cat{min-width:120px;text-align:center;padding:5px 14px;border:1px solid var(--blue);border-radius:3px;background:var(--pale)}.news-page .news-list{margin-bottom:95px}.news-detail-title{margin:0 0 40px}.news-detail-card{border:1px solid #8ab5dc;padding:35px 80px;margin:0 0 38px;min-height:215px;scroll-margin-top:30px}.news-detail-card h3{font-family:'Noto Serif JP',serif;font-size:22px;font-weight:500;margin:10px 0 20px}.news-detail-card p{font-size:17px;line-height:1.7;margin:0 0 4px}.news-detail-card .button{display:flex;width:fit-content;margin:20px auto 0}
-.standalone-hours{padding:105px 0 150px;width:704px;margin:0 auto;scroll-margin-top:20px}.standalone-hours .section-heading{margin-bottom:45px}.access-heading{background:var(--pale);padding:30px 0}.access-band-content{display:grid;grid-template-columns:260px 1fr;gap:25px;align-items:center}.access-band-content h2{font-family:'Noto Serif JP',serif;font-size:35px;font-weight:500;letter-spacing:3px;margin:0}.access-band-content p{margin:4px 0;font-size:18px;letter-spacing:1px}.access-content{padding:70px 0 35px;scroll-margin-top:15px}.access-map{width:100%;height:420px}.access-methods{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:40px}.access-methods article{background:var(--pale);border:1px solid #9cabc0;border-radius:10px;padding:29px 20px 25px;min-height:190px}.access-methods h3{font-size:21px;font-family:'Noto Serif JP',serif;font-weight:500;margin-bottom:20px}.access-methods p{font-size:16px;line-height:1.7}
+.standalone-hours{padding:105px 0 150px;width:704px;margin:0 auto;scroll-margin-top:20px}.standalone-hours .section-heading{margin-bottom:45px}.access-heading{background:var(--pale);padding:30px 0}.access-band-content{display:grid;grid-template-columns:260px 1fr;gap:25px;align-items:center}.access-band-content h2{font-family:'Noto Serif JP',serif;font-size:35px;font-weight:500;letter-spacing:3px;margin:0}.access-band-content p{margin:4px 0;font-size:18px;letter-spacing:1px}.access-content{padding:70px 0 35px;scroll-margin-top:15px}.access-map{width:100%;height:420px}.access-methods{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:40px}.access-methods article{background:var(--pale);border:1px solid #9cabc0;border-radius:10px;padding:29px 20px 25px;min-height:190px}.access-methods h3{font-size:21px;font-family:'Noto Serif JP',serif;font-weight:500;margin-bottom:20px}.access-methods .access-train-icon,.access-methods .access-car-icon{display:inline-block;width:28.8px;height:28.8px;object-fit:contain;vertical-align:middle;margin-right:6px}.access-methods .access-train-icon,.access-methods .access-car-icon{width:34.56px;height:34.56px}.access-methods .access-wheelchair-icon{display:inline-block;width:34.56px;height:34.56px;object-fit:contain;vertical-align:middle;margin-right:6px}.access-methods p{font-size:16px;line-height:1.7}.access-methods .access-parking-description{text-align:center;white-space:nowrap}.access-methods .access-train-description{text-align:left}.access-methods .access-train-route{display:block;text-align:justify;text-align-last:justify}
 .faq-index{padding:70px 0 30px}.faq-body{padding-bottom:10px}.faq-group{margin-bottom:62px;scroll-margin-top:25px}.faq-group h2{background:var(--pale);font-size:21px;letter-spacing:1px;color:var(--deep);padding:7px 16px;margin:0 0 16px;font-weight:700}.faq-item{margin:0 0 16px}.faq-item summary{display:flex;justify-content:space-between;align-items:center;list-style:none;border:1px solid #8da5bb;border-radius:5px;padding:7px 15px;background:#fff;cursor:pointer;font-size:18px}.faq-item summary::-webkit-details-marker{display:none}.faq-item summary:after{content:'';display:block;width:0;height:0;border-top:10px solid var(--blue);border-left:8px solid transparent;border-right:8px solid transparent}.faq-item:not([open]) summary:after{transform:rotate(-90deg)}.faq-answer{margin-top:5px;padding:14px 48px 17px;background:var(--pale);border-radius:5px;line-height:1.85;font-size:17px}.faq-cta h2{font-size:24px;letter-spacing:1px;margin:0 0 15px}
 @media print{.site-header,.site-footer{break-inside:avoid}.section-space,.news-detail-card,.treatment-card{break-inside:avoid}}
 /* Desktop fidelity refinements derived from the supplied 1440px reference sheets. */
@@ -22,3 +23,475 @@
 .hero{margin-top:38px}
 .hero-image::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 530px 450px at 29% 46%,rgba(255,255,255,.91) 0%,rgba(255,255,255,.63) 48%,rgba(255,255,255,0) 100%)}
 .treatment-photo{height:300px}
+.treatment-photo img[src="./img/Patient_Image/patient_10.jpg"]{object-position:right center}
+
+/* Anchor both map labels beside the red pin, including when the image is cropped. */
+.map-frame img{object-position:54.8% 58.1%}
+.map-frame span{top:58.1%;left:54.8%;right:auto;transform:translate(clamp(14px,3vw,34px),-50%);border-color:#d9303e;border-radius:4px;box-shadow:0 1px 4px #0003}
+.map-frame span::before{content:"";position:absolute;right:100%;top:50%;width:8px;border-top:2px solid #d9303e}
+
+/* Fit smaller desktops and tablets without changing the full desktop layout. */
+body{min-width:0;overflow-wrap:anywhere}
+.narrow-page,.hours-home-wrap,.standalone-hours{max-width:calc(100% - 60px)}
+.container > *, .narrow-page > *{min-width:0}
+
+@media screen and (max-width:1199px){
+  .header-main{height:auto;min-height:130px;gap:24px;padding-block:24px}
+  .primary-nav{height:auto;min-height:83px;gap:20px;padding-block:16px;flex-wrap:wrap}
+  .nav-links{flex-wrap:wrap;gap:14px 18px;max-width:none}
+  .nav-links a{padding-inline:4px}
+  .footer-inner{flex-wrap:wrap;padding-block:20px}
+  .site-footer nav{flex-wrap:wrap;justify-content:flex-start;gap:14px 20px}
+  .home-news-layout{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:30px}
+  .greeting-layout{grid-template-columns:minmax(0,286px) minmax(0,1fr);gap:30px}
+  .about-home-layout{grid-template-columns:minmax(0,1fr) minmax(0,270px)}
+  .home-about .center-action{margin-top:34px}
+  .service-teasers{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+  .staff-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}
+  .staff-card img{height:auto;aspect-ratio:4/3}
+  .intro-cols{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:30px}
+  .intro-cols .photo-frame{width:100%;height:auto;aspect-ratio:27/16}
+  .intro-cols p{font-size:18px}
+  .band-inner{gap:30px;flex-wrap:wrap;padding-block:28px}
+  .page-band h1{white-space:normal}
+  .treatment-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+  .treatment-card{padding:20px}
+  .treatment-photo{height:auto}
+  .treatment-photo img{position:static;height:auto;aspect-ratio:4/3}
+  .treatment-photo p{position:static;background:#fff;font-size:16px;padding:16px}
+  .staff-profiles{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 30px}
+  .staff-profile .director-comment-sentence{display:inline;white-space:normal;letter-spacing:normal}
+  .greeting-mission-line{display:inline}
+  .greeting-mission-line:not(:last-child){text-align:inherit;text-align-last:auto}
+  .access-home-layout{grid-template-columns:minmax(0,270px) minmax(0,1fr);gap:24px}
+  .access-band-content{grid-template-columns:minmax(0,220px) minmax(0,1fr)}
+  .access-methods{grid-template-columns:1fr;gap:20px}
+  .access-methods article{min-height:0}
+  .access-methods .access-parking-description{white-space:normal;text-align:left}
+  .access-methods .access-train-route{text-align:left;text-align-last:auto}
+  .news-page>.news-list li{gap:30px}
+  .news-list li{gap:16px}
+  .news-detail-card{padding:30px}
+  .jump-grid a{font-size:20px;padding-inline:20px}
+}
+
+/* Keep the intermediate widths readable as well. */
+@media screen and (min-width:481px) and (max-width:900px){
+  .header-main{flex-wrap:wrap;justify-content:center}
+  .header-contact{width:100%;text-align:center}
+  .home-news-layout,.greeting-layout,.about-home-layout,.intro-cols,.access-home-layout{grid-template-columns:minmax(0,1fr)}
+  .home-news .news-visual,.about-home-layout>img,.access-home-layout>.map-frame{grid-row:1}
+  .home-news .news-visual img,.about-home-layout img,.greeting-photo{width:100%;height:auto;max-height:420px;object-fit:cover}
+  .greeting-photo{width:286px;margin-inline:auto}
+  .intro-cols .photo-frame{max-height:420px}
+  .service-teasers{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .treatment-grid{grid-template-columns:minmax(0,1fr)}
+  .access-band-content{grid-template-columns:minmax(0,1fr)}
+  .hours-table th,.hours-table td{padding:8px 4px}
+  .hours-table th:first-child{min-width:0;padding-left:10px}
+  .hours-info{flex-wrap:wrap}
+}
+
+/* Smartphone: photos first, followed by readable text, at 480px and below. */
+@media screen and (max-width:480px){
+  body{font-size:15px}
+  .container,.narrow-page,.hours-home-wrap,.standalone-hours{width:calc(100% - 32px);max-width:none}
+  .header-main{flex-direction:column;gap:16px;padding-block:20px;min-height:0}
+  .site-logo{width:210px;height:66px;max-width:100%}
+  .site-logo img{width:190px;max-width:90%}
+  .header-contact{text-align:center}
+  .header-contact p{font-size:12px;line-height:1.7}
+  .header-contact .header-phone{font-size:23px}
+  .header-contact .header-phone span{font-size:24px}
+  .primary-nav{display:block;padding-block:16px;min-height:0}
+  .nav-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 16px}
+  .nav-links a{font-size:14px;white-space:normal;min-height:44px;display:flex;align-items:center;justify-content:center;text-align:center;padding:8px 0}
+  .button{max-width:100%;white-space:normal;padding:12px 18px;font-size:15px;min-height:48px}
+  .button-nav{display:flex;width:70%;max-width:240px;margin:16px auto 0}
+  .center-action,.home-news .center-action,.home-about .center-action,.home-staff .center-action{margin-top:24px;padding-inline:16px}
+  .section-heading{font-size:25px;margin-bottom:24px}
+  .section-space,.home-access{padding-top:44px;padding-bottom:44px}
+  .hero{height:auto;margin-top:0}
+  .hero-image{position:relative;height:auto;aspect-ratio:8/5;background-position:center}
+  .hero-image::before{display:none}
+  .hero-overlay{height:auto;padding-block:28px}
+  .hero-copy{margin:0;max-width:100%}
+  .hero-kicker{font-size:15px;margin-bottom:8px}
+  .hero h1{font-size:clamp(24px,6.4vw,30px);letter-spacing:1px}
+  .hero-subtitle{font-size:16px}
+  .hero-specialties{margin:24px 0;font-size:14px}
+  .home-news-layout,.greeting-layout,.about-home-layout,.access-home-layout,.intro-cols,
+  .treatment-grid,.staff-grid,.staff-profiles,.subpolicy-cols,.access-band-content{grid-template-columns:minmax(0,1fr);gap:24px}
+  .home-news .news-visual,.about-home-layout>img,.access-home-layout>.map-frame{grid-row:1}
+  .home-news .news-visual img,.about-home-layout img,.greeting-photo,.greeting-landscape{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+  .greeting-photo{max-width:320px;margin-inline:auto;aspect-ratio:286/303}
+  .greeting-copy{font-size:15px}
+  .greeting-copy p{margin-bottom:16px}
+  .signature{font-size:17px}
+  .service-teasers{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .service-teasers a{height:auto;min-height:150px;padding:20px 8px}
+  .service-teasers strong{font-size:18px}
+  .service-teasers a>span{font-size:13px;margin-top:14px}
+  .staff-card{max-width:360px;width:100%;margin-inline:auto}
+  .staff-role{font-size:16px;margin-top:16px}
+  .staff-card h3{font-size:23px;margin-bottom:12px}
+  .access-name{font-size:21px}
+  .access-home-layout .map-frame,.access-map{height:auto;aspect-ratio:4/3}
+  .map-frame span{font-size:14px;padding:3px 8px}
+  .home-cta{margin-top:0}
+  .contact-box,.home-cta .contact-box{padding:24px 16px;min-height:0}
+  .contact-box h2{font-size:24px;letter-spacing:1px}
+  .contact-box .cta-note{font-size:15px}
+  .contact-tel{font-size:clamp(18px,5.5vw,26px);max-width:100%;padding:10px 12px;letter-spacing:0}
+  .contact-box>p:last-child{font-size:14px}
+  .faq-cta h2{font-size:19px;line-height:1.7}
+  .faq-cta-message{display:inline-block;font-size:clamp(13px,3.8vw,18px);letter-spacing:-.04em;white-space:nowrap}
+  .page-cta{margin-top:40px;margin-bottom:40px}
+  .page-band,.band-inner{min-height:0}
+  .band-inner{display:flex;flex-direction:column;align-items:flex-start;gap:16px;padding-block:28px}
+  .page-band h1{font-size:28px;letter-spacing:2px}
+  .page-band p{font-size:15px}
+  .jump-grid{grid-template-columns:minmax(0,1fr);gap:12px}
+  .jump-grid a{font-size:18px;min-height:54px;padding:12px 16px}
+  .service-intro,.about-index,.about-introduction,.faq-index{padding-top:36px;padding-bottom:36px}
+  .service-intro>p{font-size:16px;letter-spacing:0;margin-bottom:28px}
+  .service-intro>p br{display:none}
+  .service-content{padding-top:0}
+  .treatment-card{padding:16px}
+  .treatment-card h2{font-size:20px;padding:8px 12px}
+  .treatment-photo p{padding:14px;font-size:15px}
+  .intro-cols p,.long-text{font-size:16px;letter-spacing:0}
+  .greeting-landscape{margin-bottom:24px}
+  .about-policy{background-attachment:scroll}
+  .policy-section h3{font-size:21px}
+  .policy-section p,.principle-section>p,.about-staff>p{font-size:15px}
+  .subpolicy-cols h4{font-size:17px}
+  .principles-table{font-size:14px;table-layout:fixed}
+  .principles-table th,.principles-table td{padding:12px 8px}
+  .principles-table th{width:38%}
+  .staff-profiles{margin-top:24px;gap:32px}
+  .staff-profile>img,.staff-profile .director-photo-frame,.staff-profile .yamamoto-photo-frame{height:auto;aspect-ratio:4/3}
+  .news-page{padding-top:36px}
+  .news-list li,.news-page>.news-list li{flex-direction:column;align-items:flex-start;gap:8px;padding:16px 0;min-height:0}
+  .news-list a{font-size:15px}
+  .news-page .news-list{margin-bottom:40px}
+  .news-page .news-cat{font-size:13px;min-width:0}
+  .news-detail-card{padding:20px 16px;margin-bottom:24px;min-height:0}
+  .news-detail-card h3{font-size:20px;margin-bottom:16px}
+  .news-detail-card p{font-size:15px}
+  .standalone-hours{padding-top:40px;padding-bottom:48px}
+  .standalone-hours .section-heading{margin-bottom:24px}
+  .hours-table{font-size:12px}
+  .hours-table table{table-layout:fixed}
+  .hours-table th,.hours-table td{padding:10px 1px;white-space:normal}
+  .hours-table th:first-child{width:32%;min-width:0;padding-left:6px;white-space:nowrap;font-size:11px}
+  .hours-table td .open-mark{font-size:14px}
+  .hours-info{flex-direction:column;gap:8px;padding-top:16px}
+  .hours-table>p{font-size:13px;line-height:1.8;margin-top:12px}
+  .access-heading{padding-block:28px}
+  .access-band-content h2{font-size:27px}
+  .access-band-content p{font-size:15px;letter-spacing:0}
+  .access-content{padding-top:32px;padding-bottom:0}
+  .access-methods{margin-top:24px}
+  .access-methods article{padding:20px 16px}
+  .access-methods h3{font-size:20px;margin-bottom:12px}
+  .access-methods p{font-size:15px}
+  .faq-group{margin-bottom:32px}
+  .faq-group h2{font-size:19px;padding:10px 12px;letter-spacing:0}
+  .faq-item summary{font-size:16px;gap:12px;padding:12px;min-height:48px}
+  .faq-item summary:after{flex-shrink:0;border-top-width:8px;border-left-width:6px;border-right-width:6px}
+  .faq-answer{font-size:15px;padding:16px}
+  .site-footer{margin-top:40px}
+  .footer-inner{flex-direction:column;align-items:flex-start;gap:20px;padding-block:24px}
+  .site-footer nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;gap:8px 16px}
+  .site-footer nav a{font-size:13px;white-space:normal;min-height:44px;display:flex;align-items:center}
+  .site-footer .site-disclaimer{text-align:left;font-size:10px}
+}
+
+/* Justify descriptive text; keep the final line naturally aligned. */
+.greeting-copy p:not(.signature),
+.about-home-layout p,
+.staff-card p,
+.contact-box .cta-note,
+.page-band p,
+.service-intro>p,
+.treatment-photo p,
+.intro-cols p,
+.long-text p,
+.about-greeting .greeting-mission,
+.policy-section p,
+.principle-section>p,
+.about-staff>p,
+.staff-profile p:not(.staff-role),
+.news-detail-card p,
+.hours-table>p,
+.access-methods p,
+.access-methods .access-train-description,
+.access-methods .access-parking-description,
+.faq-answer,
+.faq-item summary>span,
+.principles-table th,
+.principles-table td,
+.site-footer .site-disclaimer{
+  text-align:justify;
+  text-align-last:start;
+  text-justify:inter-character;
+  line-break:strict;
+  word-break:normal;
+  overflow-wrap:break-word;
+}
+/* Word and sentence groups retain the original desktop line breaking. */
+.text-word,.mobile-text-tail{display:contents}
+@media screen and (max-width:1199px){
+  .greeting-copy p:not(.signature),
+  .about-home-layout p,
+  .staff-card p,
+  .contact-box .cta-note,
+  .page-band p,
+  .service-intro>p,
+  .treatment-photo p,
+  .intro-cols p,
+  .long-text p,
+  .about-greeting .greeting-mission,
+  .policy-section p,
+  .principle-section>p,
+  .about-staff>p,
+  .staff-profile p:not(.staff-role),
+  .news-detail-card p,
+  .hours-table>p,
+  .access-methods p,
+  .access-methods .access-train-description,
+  .access-methods .access-parking-description,
+  .faq-answer,
+  .faq-item summary>span,
+  .principles-table th,
+  .principles-table td,
+  .site-footer .site-disclaimer{word-break:auto-phrase}
+  .text-word,.mobile-text-tail{display:inline;white-space:nowrap}
+  .access-methods .access-train-route{display:inline;text-align:inherit;text-align-last:auto}
+  .staff-profile .director-comment-sentence{word-break:inherit}
+}
+@media screen and (max-width:480px){
+  .greeting-copy p:not(.signature),
+  .about-home-layout p,
+  .staff-card p,
+  .contact-box .cta-note,
+  .page-band p,
+  .service-intro>p,
+  .treatment-photo p,
+  .intro-cols p,
+  .long-text p,
+  .about-greeting .greeting-mission,
+  .policy-section p,
+  .principle-section>p,
+  .about-staff>p,
+  .staff-profile p:not(.staff-role),
+  .news-detail-card p,
+  .hours-table>p,
+  .access-methods p,
+  .access-methods .access-train-description,
+  .access-methods .access-parking-description,
+  .faq-answer,
+  .faq-item summary>span,
+  .principles-table th,
+  .principles-table td,
+  .site-footer .site-disclaimer{letter-spacing:-.025em}
+  /* Let mobile text use the available line width instead of desktop breaks. */
+  .staff-card p br,.faq-answer br,.contact-box .cta-note br,.page-band p br{display:none}
+  .faq-item summary>span{min-width:0}
+}
+
+/* Fit the shared disclaimer into two lines on narrower phones. */
+@media screen and (max-width:429px){
+  .site-footer .site-disclaimer{
+    font-size:clamp(7.5px,2.35vw,10px);
+    letter-spacing:-.04em;
+    word-break:normal;
+    text-wrap:balance;
+  }
+}
+
+/* Publication dates stay to the right of each news title. */
+.news-page>.news-list li{
+  display:grid;
+  grid-template-columns:120px minmax(0,1fr) auto;
+  gap:24px;
+}
+.news-page>.news-list a{min-width:0;line-height:1.7}
+.news-date{
+  font-size:13px;
+  font-variant-numeric:tabular-nums;
+  color:#4b5966;
+  white-space:nowrap;
+}
+@media screen and (max-width:480px){
+  .news-page>.news-list li{
+    grid-template-columns:minmax(0,1fr) auto;
+    gap:8px 12px;
+    align-items:center;
+  }
+  .news-page>.news-list .news-cat{grid-column:1/-1;justify-self:start}
+  .news-date{font-size:12px}
+}
+
+/* Place a quiet publication date directly beneath each detail title. */
+.news-detail-card h3{margin-bottom:8px}
+.news-detail-card .news-published{
+  margin:0 0 20px;
+  font-size:13px;
+  line-height:1.6;
+  letter-spacing:0;
+  text-align:left;
+  font-variant-numeric:tabular-nums;
+  color:#4b5966;
+}
+
+/* Reservation navigation and shared contact entry points. */
+.nav-actions{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.primary-nav{gap:24px}
+.nav-actions .button{font-size:14px;padding:10px 16px}
+.nav-actions .button-outline{background:#fff;color:var(--deep);border-color:#9ebad2}
+.nav-actions .button-outline:hover{background:var(--pale)}
+.booking-nav[aria-current="page"]{box-shadow:0 0 0 3px #cde3f9}
+.contact-booking{display:flex;flex-direction:column;align-items:center;gap:6px;margin:18px 0}
+.contact-booking .button{min-width:240px}
+.contact-booking>span{font-size:12px;color:#485d70}
+.inline-link{text-decoration:underline;text-underline-offset:3px;color:var(--blue)}
+a:focus-visible,button:focus-visible{outline:3px solid #1267ad;outline-offset:4px}
+
+/* Reservation demo: a calm, single-column input flow with a companion guide. */
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.reservation-page{background:linear-gradient(#fff 0%,#f8fbff 100%)}
+.reservation-shell{padding-bottom:60px}
+.reservation-breadcrumb{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:#52677b;padding:22px 0}
+.reservation-breadcrumb a{text-decoration:underline;text-underline-offset:3px}
+.reservation-demo{display:flex;align-items:flex-start;gap:20px;border:1px solid #a8c7e5;border-left:4px solid var(--blue);border-radius:8px;background:#f1f7ff;padding:24px 28px;margin:10px 0 40px}
+.demo-badge{display:inline-block;flex-shrink:0;background:var(--deep);color:white;border-radius:4px;font-size:12px;font-weight:700;padding:4px 10px}
+.reservation-demo h2{font-size:18px;color:var(--deep);margin:0 0 6px;line-height:1.6}
+.reservation-demo p{font-size:14px;line-height:1.85;margin:0;color:#334c63}
+.reservation-layout{display:grid;grid-template-columns:minmax(0,740px) minmax(0,1fr);gap:38px;align-items:start}
+.reservation-main{min-width:0;background:white;border:1px solid #d1e0ee;border-radius:12px;padding:38px 36px;box-shadow:0 8px 30px #08386106}
+.reservation-eyebrow{color:var(--blue);font-size:13px;font-weight:600;letter-spacing:.08em;margin:0 0 10px}
+.reservation-intro{padding-bottom:28px;border-bottom:1px solid #d7e4f0}
+.reservation-intro h2{font-family:'Noto Serif JP',serif;font-size:27px;color:var(--deep);margin:0 0 12px;line-height:1.5}
+.reservation-intro>p:not(.reservation-eyebrow){font-size:14px;color:#52677b;line-height:1.8;margin:0 0 20px}
+.reservation-page button{font-family:inherit;cursor:pointer}
+.sample-button{display:inline-flex;align-items:center;gap:24px;border:1px solid #84b2d9;color:var(--blue);background:#f5faff;padding:10px 18px;border-radius:6px;font-size:14px;font-weight:600;min-height:44px}
+.sample-button:hover{background:#e7f3ff}
+.reservation-section{border:0;min-width:0;margin:30px 0 0;padding:0 0 30px;border-bottom:1px solid #d7e4f0}
+.reservation-section legend{display:flex;align-items:center;gap:10px;float:left;width:100%;padding:0;margin-bottom:24px;font-size:19px;font-weight:600;color:var(--deep)}
+.reservation-section legend+.reservation-fields,.reservation-section legend+.section-help{clear:both}
+.section-number{font-size:13px;letter-spacing:.04em;color:var(--blue);background:var(--pale);border-radius:50%;width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+.reservation-fields{display:grid;gap:26px}
+.form-field{min-width:0}
+.form-field label{display:flex;align-items:center;gap:12px;font-size:16px;font-weight:600;margin-bottom:6px;line-height:1.6}
+.field-badge{font-size:11px;font-weight:500;line-height:1.5;padding:2px 8px;border-radius:4px}
+.required-badge{background:#e7f0fc;color:#145a96;border:1px solid #aac8e6}
+.optional-badge{background:#f3f5f7;color:#52606c;border:1px solid #c9d3dc}
+.field-help,.section-help{font-size:13px;color:#52677b;line-height:1.8;margin:0 0 10px}
+.section-help{margin-top:-8px;margin-bottom:20px}
+.form-field input,.form-field select{display:block;width:100%;min-width:0;max-width:100%;min-height:52px;font:400 16px/1.5 'Noto Sans JP',sans-serif;color:var(--text);border:1px solid #9db2c5;border-radius:6px;background:#fff;padding:12px 14px;letter-spacing:0;scroll-margin-top:24px;transition:border-color .15s,box-shadow .15s}
+.form-field input[type="date"]{height:52px;-webkit-appearance:none;appearance:none}
+.form-field input::-webkit-date-and-time-value{text-align:left;min-height:24px}
+.form-field select{padding-right:34px}
+.form-field input::placeholder{color:#748493;opacity:1}
+.form-field input:focus,.form-field select:focus{outline:2px solid var(--blue);outline-offset:2px;border-color:var(--blue);box-shadow:0 0 0 4px #1267ad10}
+.form-field input[aria-invalid="true"],.form-field select[aria-invalid="true"]{border:2px solid #a52a38;background:#fffafb}
+.field-error{color:#a02132;font-size:13px;font-weight:500;margin:8px 0 0;line-height:1.8}
+.field-error:not([hidden])::before{content:'!';display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;border-radius:50%;border:1px solid currentColor;font-size:11px;margin-right:6px}
+.postal-field input{max-width:240px}
+.error-summary{border:1px solid #b33b49;border-left:4px solid #b33b49;border-radius:6px;background:#fff6f7;padding:20px;margin-top:24px;scroll-margin-top:20px}
+.error-summary:focus{outline:2px solid #a02132;outline-offset:3px}
+.error-summary h3{color:#922330;font-size:16px;margin:0 0 10px}
+.error-summary ul{padding-left:20px;margin:0}
+.error-summary li{font-size:14px;line-height:1.8;margin:6px 0}
+.error-summary a{color:#922330;text-decoration:underline;text-underline-offset:3px}
+.reservation-check{text-align:center;padding-top:28px}
+.reservation-check>p:first-child{font-size:14px;color:#334c63;margin-bottom:18px}
+.check-button{width:100%;gap:24px;min-height:56px;font-size:16px}
+.check-note{font-size:12px;color:#52677b;line-height:1.8;margin:12px 0 16px}
+.clear-button{font-size:13px;border:0;color:#52677b;background:none;min-height:44px;text-decoration:underline;text-underline-offset:4px;padding:8px 12px}
+.check-status:empty{display:none}
+.check-status{font-size:14px;text-align:left;line-height:1.9;background:var(--pale);border-left:3px solid var(--blue);border-radius:4px;color:var(--deep);padding:16px;margin:18px 0 0;overflow-wrap:break-word}
+.guide-card{border:1px solid #ccdfef;border-radius:10px;padding:28px 24px;background:var(--pale2)}
+.guide-kicker{color:var(--blue);font-size:12px;margin:0 0 8px}
+.guide-card h2{font-family:'Noto Serif JP',serif;font-size:22px;color:var(--deep);margin:0 0 22px}
+.guide-card dl{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;font-size:15px;margin:0 0 14px}
+.guide-card dt{color:#52677b}
+.guide-card dd{margin:0;font-variant-numeric:tabular-nums;white-space:nowrap}
+.guide-hours-note{font-size:12px;color:#52677b;line-height:1.8;padding-bottom:20px;margin-bottom:4px;border-bottom:1px solid #cedfee}
+.guide-link{display:flex;justify-content:space-between;gap:10px;align-items:center;font-size:14px;color:var(--deep);line-height:1.6;padding:16px 0;border-bottom:1px solid #cedfee;min-height:48px}
+.guide-link:last-child{border-bottom:0;padding-bottom:0}
+.guide-demo-note{color:#52677b;padding:22px 8px}
+.guide-demo-note p{font-size:12px;line-height:1.9;margin:0}
+.reservation-back{display:inline-block;font-size:14px;color:var(--blue);margin-top:28px;text-decoration:underline;text-underline-offset:4px;min-height:44px;padding:10px 0}
+.reservation-noscript{color:#922330;border:1px solid #d9a5ac;padding:16px;font-size:14px;background:#fff6f7}
+@media screen and (max-width:1199px){
+  .nav-links{min-width:0}
+  .nav-actions{margin-left:auto}
+  .site-footer nav{gap:12px}
+  .reservation-layout{grid-template-columns:minmax(0,1fr) 270px;gap:24px}
+  .reservation-main{padding:30px 26px}
+}
+@media screen and (max-width:900px){
+  .reservation-layout{grid-template-columns:minmax(0,1fr)}
+  .reservation-guide{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}
+  .guide-demo-note{align-self:center}
+}
+@media screen and (max-width:480px){
+  .nav-actions{margin:16px 0 0;gap:10px;justify-content:center}
+  .nav-actions .button{font-size:14px;padding:10px 12px;min-width:0;min-height:48px}
+  .nav-actions .button-nav{width:auto;max-width:none;margin:0}
+  .contact-booking .button{min-width:0;width:min(100%,260px)}
+  .reservation-shell{padding-bottom:28px}
+  .reservation-breadcrumb{font-size:11px;gap:8px;padding:18px 0}
+  .reservation-demo{flex-direction:column;gap:12px;padding:18px 16px;margin:0 0 24px}
+  .reservation-demo h2{font-size:16px}
+  .reservation-demo p{font-size:13px}
+  .reservation-demo br{display:none}
+  .reservation-main{padding:24px 16px;border-radius:8px}
+  .reservation-intro h2{font-size:23px}
+  .reservation-intro>p:not(.reservation-eyebrow){font-size:13px}
+  .reservation-section legend{font-size:18px;gap:8px;margin-bottom:20px}
+  .reservation-section{margin-top:26px;padding-bottom:26px}
+  .reservation-fields{gap:24px}
+  .field-help,.section-help{font-size:12px}
+  .form-field label{font-size:15px}
+  .form-field input,.form-field select{padding-left:10px;padding-right:10px}
+  .form-field select{padding-right:28px}
+  .reservation-check>p:first-child{font-size:13px}
+  .check-button{font-size:15px;padding-inline:10px;gap:12px}
+  .error-summary{padding:16px 12px}
+  .reservation-guide{display:block}
+  .guide-card{padding:24px 20px}
+  .guide-demo-note{padding:20px 8px 0}
+}
+
+/* Match the mobile typography of the existing pages, including feedback. */
+.reservation-phrase{display:contents}
+@media screen and (max-width:480px){
+  .reservation-page .reservation-copy{
+    text-align:justify;
+    text-align-last:start;
+    text-justify:inter-character;
+    letter-spacing:-.025em;
+    line-break:strict;
+    word-break:normal;
+    overflow-wrap:break-word;
+  }
+  .reservation-page .reservation-phrase{display:inline;white-space:nowrap}
+  .reservation-page .reservation-copy br{display:none}
+}
+
+/* Keep the three short reservation notes on one line on phones. */
+@media screen and (max-width:480px){
+  .reservation-page .reservation-check>p:first-child,
+  .reservation-page .check-note,
+  .reservation-page .guide-demo-note p{
+    white-space:nowrap;
+    letter-spacing:-.04em;
+  }
+  .reservation-page .reservation-check>p:first-child{font-size:clamp(8px,2.9vw,13px)}
+  .reservation-page .check-note{font-size:clamp(7px,2.5vw,12px)}
+  .reservation-page .guide-demo-note p{font-size:clamp(6.5px,2.1vw,10px);min-width:0}
+}
